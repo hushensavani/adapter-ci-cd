@@ -16,6 +16,9 @@
     <description>Adapter CI/CD sample project</description>
     <properties>
         <java.version>17</java.version>
+        <sonar.exclusions>
+            **/test/**.java
+        </sonar.exclusions>
     </properties>
     <dependencies>
         <dependency>
