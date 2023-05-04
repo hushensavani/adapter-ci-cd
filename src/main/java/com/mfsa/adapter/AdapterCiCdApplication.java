@@ -8,6 +8,7 @@ public class AdapterCiCdApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AdapterCiCdApplication.class, args);
+		System.out.println("App started");
 	}
 
 }
